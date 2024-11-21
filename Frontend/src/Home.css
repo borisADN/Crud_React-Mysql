@@ -1,0 +1,28 @@
+/* Styles pour le tableau */
+.table-container {
+  max-height: 240px; /* 5 lignes * 40px par ligne = 200px */
+  overflow-y: auto;  /* Activer le défilement vertical */
+}
+
+.table-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff; 
+  z-index: 10;
+}
+
+.table th,
+.table td {
+  padding: 8px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
