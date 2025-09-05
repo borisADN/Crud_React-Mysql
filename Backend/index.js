@@ -1,7 +1,6 @@
 import express from "express";
 import mysql from "mysql";
 import cors from "cors";
-import nodemon from "nodemon";
 
 const app = express();
 
@@ -69,19 +68,6 @@ app.delete("/delete/:id", (req, res) => {
     return res.json({ message: "Delete successful", result });
   });
 });
-
-// app.put('/update/:id', (req, res) => {
-//     const sql = 'UPDATE students SET name = ?, email = ? WHERE id = ?';
-//     const id = req.params.id;
-
-//     db.query(sql, [req.body.name, req.body.email, id], (err, result) => {
-//         if (err) {
-//             console.error(err); // Log error details for debugging
-//             return res.status(500).json({ error: 'Database update failed', details: err });
-//         }
-//         return res.json({ message: 'Update successful', result });
-//     });
-// });
 
 app.listen(3001, () => {
   console.log("Server running on port 3001");

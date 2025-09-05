@@ -1,0 +1,34 @@
+# --- Logs ---
+/Frontend/logs
+/Frontend/*.log
+/Frontend/npm-debug.log*
+/Frontend/yarn-debug.log*
+/Frontend/yarn-error.log*
+/Frontend/pnpm-debug.log*
+/Frontend/lerna-debug.log*
+
+# --- Dépendances ---
+/Frontend/node_modules
+
+# --- Build ---
+/Frontend/dist
+/Frontend/dist-ssr
+/Frontend/*.local
+
+# --- Dossiers & fichiers éditeurs ---
+/Frontend/.vscode/*
+!/Frontend/.vscode/extensions.json
+/Frontend/.idea
+/Frontend/.DS_Store
+/Frontend/*.suo
+/Frontend/*.ntvs*
+/Frontend/*.njsproj
+/Frontend/*.sln
+/Frontend/*.sw?
+
+# --- Dossiers temporaires ---
+/Frontend/.next
+/Frontend/.turbo
+
+# --- Backend ---
+/Backend/node_modules
