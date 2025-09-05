@@ -9,6 +9,7 @@
 
 # --- Dépendances ---
 /Frontend/node_modules
+/Backend/node_modules
 
 # --- Build ---
 /Frontend/dist
@@ -26,9 +27,9 @@
 /Frontend/*.sln
 /Frontend/*.sw?
 
-# --- Dossiers temporaires ---
+# --- Dossiers temporaires (Next.js / TurboRepo etc.) ---
 /Frontend/.next
 /Frontend/.turbo
-
-# --- Backend ---
-/Backend/node_modules
+/Frontend/.vercel
+/Frontend/next.config.js
+/Frontend/vercel.json
