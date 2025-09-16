@@ -1,8 +1,4 @@
-npm install -y
-npm install express mysql cors nodemon
-dans index.js -> "start": "nodemon index.js"
-type module c'est pour quoi
-voir ce qui se passe sur localhost:3001 ....
+npm install
 
 
 https://youtu.be/CUsCMKXpBGE?si=3rif8bYyTa8tWK2P
