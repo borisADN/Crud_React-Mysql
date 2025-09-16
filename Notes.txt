@@ -1,2 +1,3 @@
 Pour lancer le serveur backend node index.js
+ne pas oublier de lancer npm install dans les 2 dossiers pour régénérer les dépendances
 https://youtu.be/CUsCMKXpBGE?si=3rif8bYyTa8tWK2P
