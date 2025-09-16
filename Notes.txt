@@ -1,4 +1,2 @@
-npm install
-
-
+Pour lancer le serveur backend node index.js
 https://youtu.be/CUsCMKXpBGE?si=3rif8bYyTa8tWK2P
